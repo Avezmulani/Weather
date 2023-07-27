@@ -1,0 +1,64 @@
+.weather{
+width: 25vw;
+border-radius: 6px;
+box-shadow: 10px -2px 20px 2px rgb(0 0 0 /30%);
+color: white;
+background-color: #333;
+margin: 20px auto 0 auto;
+padding: 0 20px ;
+overflow: hidden;
+}
+.weather:hover{
+    cursor: pointer;
+    background-color: black;
+    
+}
+.top{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.top img:hover{
+    scale: 1.2;
+}
+.city{
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1;
+    margin: 0;
+    letter-spacing: 1;
+}
+.description{
+    font-size: 1em;
+    line-height: 1;
+}
+.bottom{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.temperature{
+    font-weight: 650;
+    font-size: 3.5rem;
+    width: auto;
+    margin-top: -4px;
+    margin-left: -10px;
+    letter-spacing: -3px;
+}
+.temperature:hover{
+    color: rgb(98, 246, 197);
+}
+.more-info{
+    letter-spacing: 0.18em;
+}
+.parameter-row{
+    display: flex;
+    justify-content: space-between ;
+}
+.parameter-row:hover{
+    color: rgb(98, 246, 197);
+}
+.label{
+    text-align: left;
+    font-size: 1.1rem;
+}
